@@ -1,0 +1,12 @@
+@reference "tailwindcss";
+
+/* Layout specific styles */
+@layer components {
+  .app-layout {
+    @apply flex h-screen w-full overflow-hidden;
+  }
+  
+  .main-content {
+    @apply flex flex-col flex-1 h-full relative;
+  }
+}
