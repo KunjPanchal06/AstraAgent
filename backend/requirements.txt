@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+openai
+pydantic[email]
+python-dotenv
+aiosqlite
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.0.1
