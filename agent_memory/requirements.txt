@@ -1,0 +1,15 @@
+langgraph 
+langchain
+langchain-community
+
+faiss-cpu
+
+sentence-transformers
+
+networkx
+
+numpy
+
+python-dotenv
+
+pydantic
