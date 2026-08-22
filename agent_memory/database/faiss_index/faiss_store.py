@@ -35,3 +35,6 @@ class FAISSStore:
             results.append(self.memories[index])
 
         return distances, results
+
+    # embedding faiss --->vectordb
+    #knowledge file

@@ -33,7 +33,7 @@ class TrajectoryLogger:
     final_answer : str | None — Set when the run completes normally.
     status     : str   — "running", "completed", or "max_steps_reached".
     """
-
+                                                                           
     def __init__(self, run_id: str, task: str) -> None:
         self.run_id: str = run_id
         self.task: str = task
